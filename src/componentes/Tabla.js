@@ -8,17 +8,17 @@ class Tabla extends React.Component{
             <div class="table-responsive">
                 <table class="table" style={{border: 'ridge orange 1px',width: 642, marginLeft:152 }}>
                         <tr style={{background:'orange'}}>
-                          <td >
-                             FECHA
+                          <td style={{color: 'white'}}>
+                           <stron>FECHA</stron>
                           </td>
-                          <td >
-                             CUENTA
+                          <td style={{color: 'white'}}>
+                          <stron> CUENTA </stron>
                          </td>
-                         <td >
-                            DESCRIPCIÓN
+                         <td style={{color: 'white'}}>
+                         <stron>DESCRIPCIÓN </stron>
                          </td>
-                         <td >
-                            TOTAL
+                         <td style={{color: 'white'}}>
+                         <stron> TOTAL </stron>
                          </td>
                         </tr>
                         <tr style={{backgroundColor:'white',border:'ridge orange 1px', height:40}}> 
